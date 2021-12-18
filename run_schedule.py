@@ -21,7 +21,6 @@ def routine():
    except Exception as e:
     print(e)
 
-routine()
 
 schedule.every(12).hours.do(routine)
 
